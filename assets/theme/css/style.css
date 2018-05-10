@@ -5529,7 +5529,7 @@ b, strong {font-weight: bold;}
 .menu4 .nav-list {position: relative; left: 0px; top: 0px; overflow-y: auto; text-align: center; display: table; transform: translateX(200%); -webkit-transform: translateX(200%);-ms-transform: translateX(200%); transition: all 0.35s ease-out; -webkit-transition: all 0.35s ease-out;-ms-transition: all 0.35s ease-out;}
 .menu4 .nav-list.in {transform: translateX(-10%); -webkit-transform: translateX(-10%);-ms-transform: translateX(-10%);}
 @media (min-width: 992px){
-  .menu4 .navbar-dropdown.opened {background: #fff!important;}
+  .menu4 .navbar-dropdown.opened {background: #fff;}
 }
 @media (max-width: 991px) {
 .menu4 .navbar-nav {padding: 200px 0px;}
@@ -5903,7 +5903,9 @@ textarea.form-control { height: 120px;}
 .footer-item .title {color: #fff; padding-bottom: 20px;}
 .footer-item .adress {font-size: 14px; line-height: 1.5em; color: #b5b5b5; padding-bottom: 5px;}
 .footer-logo img{max-height: 24px; margin-bottom: 25px; display: block;}
-.footer-item a {font-size: 14px; line-height: 1.5em; color: #b5b5b5; display: block;}
+.footer-item a {font-size: 14px; line-height: 1.5em; color: #b5b5b5; display: inline-block;}
+.footer-item.tweets p {font-size: 14px; line-height: 1.5em;}
+.footer-item.tweets p b, .footer-item.tweets p strong{font-size: 14px; line-height: 1.5em;}
 .footer-item a b, .footer-item a strong{font-weight: 700; color: #fff;}
 .news-min {position: relative; display: inline-block; width: 100%; margin-bottom: 1.538rem;}
 .news-min .image {max-width: 7.692rem; position: relative; float: left;}

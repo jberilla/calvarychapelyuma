@@ -55,7 +55,7 @@
 }
 
 .mbr-gallery-item__hided span {
-    display: none;
+    display: none !important;
 }
 
 /* remove spacing */
