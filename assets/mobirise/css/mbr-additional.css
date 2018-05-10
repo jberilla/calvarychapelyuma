@@ -616,7 +616,11 @@ a:hover,
 }
 #header3-0 H1 {
   text-align: center;
+  font-size: 60px;
 }
 #header3-0 EM {
-  font-size: 60px;
+  font-size: 14px;
+}
+#header3-0 SPAN {
+  font-size: 80px;
 }

@@ -128,8 +128,8 @@
           "_name": "header3",
           "_anchor": "header3-0",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "2",
+            "paddingBottom": "4",
             "showTitle": true,
             "showSubtitle": true,
             "showButtons": false,
@@ -167,15 +167,19 @@
               "loop": false
             }
           },
-          "title": "<em>Calvary Chapel Yuma</em>",
+          "title": "Calvary Chapel Yuma",
           "text": "...be fed the Word of God, book by book, chapter by chapter, verse by verse.\n<br>...fit into a growing and intimate fellowship desiring to worship in spiritual truth.\n<br>...fellowship with other Christians where you sense the love of Christ reflected in the lives of those gathered to worship.\n<br>...be fruitful in areas of ministry in which the Holy Spirit has specifically gifted you for service in the body of Christ.\n<br>\n<br>And a place to find...\n<br>...friendly, caring and loving people\n<br>...a relaxed comfortable atmosphere\n<br>...concise answers from God's Word\n<br>...contemporary praise and worship\n<br>...expository Bible teaching\n<br>...caring nursery and children's programs\n<br>...a growing Church",
           "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
           "_styles": {
             "H1": {
-              "text-align": "center"
+              "text-align": "center",
+              "font-size": "60px"
             },
             "EM": {
-              "font-size": "60px"
+              "font-size": "14px"
+            },
+            "SPAN": {
+              "font-size": "80px"
             }
           }
         }
