@@ -614,3 +614,9 @@ a:hover,
 #menu1-1 .dropdown-item[aria-expanded="true"] {
   color: #222!important;
 }
+#header3-0 H1 {
+  text-align: center;
+}
+#header3-0 EM {
+  font-size: 60px;
+}

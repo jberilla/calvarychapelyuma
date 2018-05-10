@@ -16,7 +16,8 @@
         "subtitleFont": "Lato",
         "textFont": "Lato",
         "isRoundedButtons": true
-      }
+      },
+      "additionalSetColors": []
     },
     "versionFirst": "3.9.2",
     "uniqCompNum": 2,
@@ -100,7 +101,7 @@
             "fontColor": "#989898",
             "fontHoverColor": "#222"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HELP</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Tutorials</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\">Connect</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Service Times<br>Small Groups<br>Upcoming Events<br>Weekly Bulletin</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\">About Us</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">About CCYuma<br>The Servants<br>Photo Gallery</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Serve &amp;give</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Give online<br>Current needs</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">the word<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Audio Archive<br>ITunes<br>Tune-In<br>E-Books<br>YouTube<br>Live Stream on Facebook<br><br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">contact<br></a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -131,7 +132,7 @@
             "paddingBottom": 2,
             "showTitle": true,
             "showSubtitle": true,
-            "showButtons": true,
+            "showButtons": false,
             "showMedia": true,
             "imageSize": 50,
             "inverse": true,
@@ -146,25 +147,37 @@
             },
             "overlay": true,
             "overlayColor": "#151515",
-            "overlayOpacity": 0.35
+            "overlayOpacity": "0.3"
           },
           "media": {
             "image": {
               "class": "mbr-figure__img",
-              "src": "@THEME_PATH@/components/_images/info.jpg"
+              "src": "@THEME_PATH@/components/_images/info.jpg",
+              "link": "https://www.youtube.com/watch?v=F881kqAiLyc",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "active": true,
-              "src": "https://www.youtube.com/watch?v=axMabrSDrI8",
+              "src": "https://www.youtube.com/watch?v=F881kqAiLyc",
               "class": "mbr-figure__img",
               "aspectratio": "16:9",
               "autoplay": false,
               "loop": false
             }
           },
-          "title": "<em>SpaceM</em> Website Builder",
-          "text": "Full-width intro with parallax background and media on the right side. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, totam sit! Ut perspiciatis sint minima, a, consequatur maxime minus neque voluptatem laborum distinctio amet. Ea deleniti sed, commodi aperiam! Harum excepturi ipsa temporibus sit, natus illum expedita officiis doloribus a aspernatur",
-          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>"
+          "title": "<em>Calvary Chapel Yuma</em>",
+          "text": "...be fed the Word of God, book by book, chapter by chapter, verse by verse.\n<br>...fit into a growing and intimate fellowship desiring to worship in spiritual truth.\n<br>...fellowship with other Christians where you sense the love of Christ reflected in the lives of those gathered to worship.\n<br>...be fruitful in areas of ministry in which the Holy Spirit has specifically gifted you for service in the body of Christ.\n<br>\n<br>And a place to find...\n<br>...friendly, caring and loving people\n<br>...a relaxed comfortable atmosphere\n<br>...concise answers from God's Word\n<br>...contemporary praise and worship\n<br>...expository Bible teaching\n<br>...caring nursery and children's programs\n<br>...a growing Church",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "_styles": {
+            "H1": {
+              "text-align": "center"
+            },
+            "EM": {
+              "font-size": "60px"
+            }
+          }
         }
       ]
     }
