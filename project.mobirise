@@ -6620,6 +6620,9 @@
                 "max-width": "20%",
                 "padding": "15px"
               }
+            },
+            ".card-title": {
+              "text-align": "center"
             }
           },
           "_name": "features17",
